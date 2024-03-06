@@ -1,0 +1,22 @@
+{
+  "name": "gestionnaire-categorie-produit",
+  "version": "1.0.0",
+  "description": "Gestionnaire de catégories et de produits avec Express.js et MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb"
+  ],
+  "author": "VotreNom",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.13",
+    "body-parser": "^1.19.1"
+  }
+}
